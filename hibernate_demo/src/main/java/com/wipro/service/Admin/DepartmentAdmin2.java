@@ -1,6 +1,6 @@
 package com.wipro.service.Admin;
 
-//import com.wipro.bean.Department;
+// import com.wipro.bean.Department;
 import com.wipro.dao.DepartmentDAO;
 
 public class DepartmentAdmin2 {
