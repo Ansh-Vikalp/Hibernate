@@ -1,0 +1,16 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+
+<!DOCTYPE hibernate-mapping PUBLIC 
+"-//Hibernate/Hibernate Mapping DTD//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="com.wipro.bean.Department" table= "dept">
+        <id name= "deptNo" column="deptno" type="int">
+            <!-- primary key -->
+            <generator class="assigned"></generator>
+        </id>
+        <property name ="deptName" column="dname" type="string"></property>
+        <property name="location" column="location" type="string"></property>
+    </class>
+</hibernate-mapping>
