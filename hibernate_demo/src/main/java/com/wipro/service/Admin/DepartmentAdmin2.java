@@ -42,7 +42,6 @@ public class DepartmentAdmin2 {
         // Fetch the records
 
         System.out.println(dao.getDepartment(102));
-        // ! Error in loadDepartMent()
         System.out.println(dao.loadDepartment(101));
 
         System.out.println();
