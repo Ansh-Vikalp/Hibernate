@@ -14,7 +14,7 @@ public class StudentTester {
         Session session = sf.openSession();
         Transaction trans = session.beginTransaction();
 
-        Student s1 = new Student(304, "Ansh Vikalp", "B.Tech (CSE)");
+        Student s1 = new Student(308, "Hariom Mishra", "B.Pharma");
 
         session.save(s1);
 
